@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 9)
-    (tracks 3169)
+    (tracks 3170)
     (zones 0)
     (modules 145)
     (nets 582)
@@ -5663,7 +5663,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 60ABD671)
-    (at 167.63 103.86)
+    (at 191.19 112.05)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /60B2563F/60DD9290)
@@ -5699,7 +5699,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 60ABD660)
-    (at 167.57 101.53)
+    (at 189.74 107.93)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /60B2563F/60DD9288)
@@ -10269,6 +10269,7 @@
   (segment (start 139.36 97.64) (end 139.12 97.4) (width 0.09) (layer F.Cu) (net 78) (tstamp 60B2D444))
   (segment (start 141.712499 107.637501) (end 139.932499 107.637501) (width 0.09) (layer F.Cu) (net 81) (tstamp 60B2D441))
   (segment (start 142.21 107.14) (end 141.712499 107.637501) (width 0.09) (layer F.Cu) (net 81) (tstamp 60B2D43E))
+  (segment (start 230.74 54.22) (end 230.74 54.196733) (width 0.09) (layer F.Cu) (net 82))
   (segment (start 141.955001 106.894999) (end 139.239999 106.894999) (width 0.09) (layer F.Cu) (net 82) (tstamp 60B2D43B))
   (segment (start 142.21 106.64) (end 141.955001 106.894999) (width 0.09) (layer F.Cu) (net 82) (tstamp 60B2D438))
   (segment (start 141.964999 105.885001) (end 138.730001 105.885001) (width 0.09) (layer F.Cu) (net 84) (tstamp 60B2D435))
