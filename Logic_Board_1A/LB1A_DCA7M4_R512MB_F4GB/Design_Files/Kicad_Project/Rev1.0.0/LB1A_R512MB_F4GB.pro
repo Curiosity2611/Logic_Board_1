@@ -1,4 +1,4 @@
-update=2021 May 28, Friday 15:40:43
+update=2021 May 31, Monday 07:21:01
 version=1
 last_client=kicad
 [general]
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -46,6 +36,7 @@ TrackWidth5=0.16
 TrackWidth6=0.2
 TrackWidth7=0.3
 TrackWidth8=0.5
+TrackWidth9=0.6
 ViaDiameter1=0.4
 ViaDrill1=0.2
 dPairWidth1=0.2
@@ -76,23 +67,23 @@ SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
-Name=F.Cu
+Name=Top_Layer.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
+Name=Signal_Layer_1.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
+Name=Signal_Layer_2.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In3.Cu]
-Name=In3.Cu
+Name=Signal_Layer_3.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In4.Cu]
-Name=In4.Cu
+Name=Signal_Layer_4.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In5.Cu]
@@ -200,7 +191,7 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=B.Cu
+Name=Bottom_Layer.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]
@@ -264,3 +255,13 @@ uViaDrill=0.1
 dPairWidth=0.1
 dPairGap=0.13
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
