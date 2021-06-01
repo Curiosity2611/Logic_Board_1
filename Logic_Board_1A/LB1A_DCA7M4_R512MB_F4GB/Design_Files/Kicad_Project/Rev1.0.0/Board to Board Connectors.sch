@@ -61,25 +61,6 @@ NoConn ~ 2850 4700
 NoConn ~ 2850 4800
 NoConn ~ 2850 4900
 NoConn ~ 2850 5000
-NoConn ~ 2850 5100
-NoConn ~ 3550 2000
-NoConn ~ 3550 2200
-NoConn ~ 3550 2400
-NoConn ~ 3550 2600
-NoConn ~ 3550 2800
-NoConn ~ 3550 3000
-NoConn ~ 3550 3200
-NoConn ~ 3550 3400
-NoConn ~ 3550 3600
-NoConn ~ 3550 3800
-NoConn ~ 3550 4000
-NoConn ~ 3550 4200
-NoConn ~ 3550 4400
-NoConn ~ 3550 4600
-NoConn ~ 3550 4800
-NoConn ~ 3550 4900
-NoConn ~ 3550 5000
-NoConn ~ 3550 5100
 NoConn ~ 5550 1900
 NoConn ~ 5550 2100
 NoConn ~ 5550 2400
@@ -97,13 +78,13 @@ NoConn ~ 6250 2300
 NoConn ~ 6250 3400
 NoConn ~ 6250 3500
 NoConn ~ 6250 3700
-Text GLabel 5350 1800 0    50   Input ~ 0
+Text GLabel 1550 2350 0    50   Input ~ 0
 I2C4_SCL
-Text GLabel 5350 1700 0    50   BiDi ~ 0
+Text GLabel 1550 2250 0    50   BiDi ~ 0
 I2C4_SDA
-Text GLabel 5350 2200 0    50   Input ~ 0
+Text GLabel 1550 2750 0    50   Input ~ 0
 nPONKEY
-Text GLabel 5350 2300 0    50   Input ~ 0
+Text GLabel 1550 2850 0    50   Input ~ 0
 NRST
 NoConn ~ 5550 2000
 Text GLabel 6450 4000 2    50   UnSpc ~ 0
@@ -154,51 +135,51 @@ Text GLabel 5350 4100 0    50   UnSpc ~ 0
 STUSB1600_IRQOUTn
 Text GLabel 6450 3800 2    50   UnSpc ~ 0
 I2C1_SDA
-Text GLabel 2600 4700 0    50   UnSpc ~ 0
+Text GLabel 1500 4300 0    50   UnSpc ~ 0
 SDMMC1_CMD
-Text GLabel 2600 4600 0    50   UnSpc ~ 0
+Text GLabel 1500 4200 0    50   UnSpc ~ 0
 SDMMC1_CK
-Text GLabel 2600 4500 0    50   UnSpc ~ 0
+Text GLabel 1500 4100 0    50   UnSpc ~ 0
 SDMMC1_D3
-Text GLabel 2600 4400 0    50   UnSpc ~ 0
+Text GLabel 1500 4000 0    50   UnSpc ~ 0
 SDMMC1_D2
-Text GLabel 2600 4300 0    50   UnSpc ~ 0
+Text GLabel 1500 3900 0    50   UnSpc ~ 0
 SDMMC1_D1
-Text GLabel 2600 4200 0    50   UnSpc ~ 0
+Text GLabel 1500 3800 0    50   UnSpc ~ 0
 SDMMC1_D0
 Text GLabel 5350 4200 0    50   UnSpc ~ 0
 LCD_R0
 Text GLabel 5350 3000 0    50   UnSpc ~ 0
 LCD_R1
-Text GLabel 4300 1900 2    50   UnSpc ~ 0
+Text GLabel 1000 4550 2    50   UnSpc ~ 0
 LCD_R2
-Text GLabel 3750 2000 2    50   UnSpc ~ 0
+Text GLabel 1000 4650 2    50   UnSpc ~ 0
 LCD_R3
-Text GLabel 4300 2100 2    50   UnSpc ~ 0
+Text GLabel 3750 2200 2    50   UnSpc ~ 0
 LCD_R4
 Text GLabel 5350 4800 0    50   UnSpc ~ 0
 LCD_R5
-Text GLabel 4450 2300 2    50   UnSpc ~ 0
+Text GLabel 3750 1800 2    50   UnSpc ~ 0
 LCD_R6
-Text GLabel 3750 2400 2    50   UnSpc ~ 0
+Text GLabel 3750 4900 2    50   UnSpc ~ 0
 LCD_R7
 Text GLabel 5350 4600 0    50   UnSpc ~ 0
 LCD_G0
 Text GLabel 3750 3500 2    50   UnSpc ~ 0
 LCD_G1
-Text GLabel 4200 2700 2    50   UnSpc ~ 0
+Text GLabel 3750 2600 2    50   UnSpc ~ 0
 LCD_G2
 Text GLabel 3750 4700 2    50   UnSpc ~ 0
 LCD_G3
-Text GLabel 4550 2900 2    50   UnSpc ~ 0
+Text GLabel 3750 2000 2    50   UnSpc ~ 0
 LCD_G4
-Text GLabel 3750 3000 2    50   UnSpc ~ 0
+Text GLabel 3750 2400 2    50   UnSpc ~ 0
 LCD_G5
-Text GLabel 4200 3100 2    50   UnSpc ~ 0
+Text GLabel 3750 2800 2    50   UnSpc ~ 0
 LCD_G6
 Text GLabel 3750 3200 2    50   UnSpc ~ 0
 LCD_G7
-Text GLabel 3750 3400 2    50   UnSpc ~ 0
+Text GLabel 3750 4200 2    50   UnSpc ~ 0
 LCD_B1
 Text GLabel 6450 2900 2    50   UnSpc ~ 0
 LCD_B2
@@ -208,11 +189,11 @@ Text GLabel 3750 4500 2    50   UnSpc ~ 0
 LCD_B4
 Text GLabel 5350 5100 0    50   UnSpc ~ 0
 LCD_B5
-Text GLabel 4450 3900 2    50   UnSpc ~ 0
+Text GLabel 3750 3600 2    50   UnSpc ~ 0
 LCD_B6
-Text GLabel 3750 4000 2    50   UnSpc ~ 0
+Text GLabel 3750 4400 2    50   UnSpc ~ 0
 LCD_B7
-Text GLabel 3800 4200 2    50   UnSpc ~ 0
+Text GLabel 3750 4000 2    50   UnSpc ~ 0
 LCD_VSYNC
 Text GLabel 5350 4300 0    50   UnSpc ~ 0
 LCD_HSYNC
@@ -222,17 +203,17 @@ Text GLabel 6450 3300 2    50   UnSpc ~ 0
 LCD_DE
 Text GLabel 6450 5000 2    50   UnSpc ~ 0
 HDMI_INT
-Text GLabel 3750 4600 2    50   UnSpc ~ 0
+Text GLabel 1100 3550 2    50   UnSpc ~ 0
 HDMI_CEC
 Text GLabel 6450 2200 2    50   UnSpc ~ 0
 HDMI_NRST
-Text GLabel 5350 2400 0    50   UnSpc ~ 0
+Text GLabel 1550 2950 0    50   UnSpc ~ 0
 DSI_TE
-Text GLabel 5350 2500 0    50   UnSpc ~ 0
+Text GLabel 1550 3050 0    50   UnSpc ~ 0
 DSI_RESET
 Text GLabel 3750 3300 2    50   UnSpc ~ 0
 DSI_D0_P
-Text GLabel 5350 2700 0    50   UnSpc ~ 0
+Text GLabel 1550 3250 0    50   UnSpc ~ 0
 DSI_D0_N
 Text GLabel 3750 2500 2    50   UnSpc ~ 0
 DSI_D1_P
@@ -242,15 +223,15 @@ Text GLabel 3750 2900 2    50   UnSpc ~ 0
 DSI_CKP
 Text GLabel 3750 3100 2    50   UnSpc ~ 0
 DSI_CKN
-Text GLabel 4800 3200 0    50   UnSpc ~ 0
+Text GLabel 1500 4750 0    50   UnSpc ~ 0
 DSI_LCD_INT
 Text GLabel 6450 1800 2    50   UnSpc ~ 0
 DSI_BL_CTRL
-Text GLabel 4600 3650 0    50   UnSpc ~ 0
+Text GLabel 3750 3000 2    50   UnSpc ~ 0
 I2S2_SDO
 Text GLabel 3750 3700 2    50   UnSpc ~ 0
 I2S2_WS
-Text GLabel 4750 3400 0    50   UnSpc ~ 0
+Text GLabel 1450 4950 0    50   UnSpc ~ 0
 I2S2_CK
 Text GLabel 3750 4100 2    50   UnSpc ~ 0
 STLINK_UART4_RX
@@ -266,11 +247,11 @@ Text GLabel 3750 1900 2    50   UnSpc ~ 0
 JTDI
 Text GLabel 3750 2100 2    50   UnSpc ~ 0
 NJRST
-Text GLabel 4850 4400 0    50   UnSpc ~ 0
+Text GLabel 3750 5000 2    50   UnSpc ~ 0
 BOOT0
-Text GLabel 4850 4500 0    50   UnSpc ~ 0
+Text GLabel 2600 5100 0    50   UnSpc ~ 0
 BOOT1
-Text GLabel 4900 4600 0    50   UnSpc ~ 0
+Text GLabel 3750 4600 2    50   UnSpc ~ 0
 BOOT2
 Text GLabel 6450 3200 2    50   UnSpc ~ 0
 USART1_RX
@@ -278,7 +259,7 @@ Text GLabel 6450 4700 2    50   UnSpc ~ 0
 USART1_TX
 Text GLabel 6450 1700 2    50   UnSpc ~ 0
 USART1_RTS
-Text GLabel 4900 4850 0    50   UnSpc ~ 0
+Text GLabel 3750 3800 2    50   UnSpc ~ 0
 USART1_CTS
 Text GLabel 6450 2100 2    50   UnSpc ~ 0
 SPI5_NSS
@@ -290,11 +271,11 @@ Text GLabel 5350 4700 0    50   UnSpc ~ 0
 ANA0
 Text GLabel 5350 4900 0    50   UnSpc ~ 0
 ANA1
-Text GLabel 7000 2700 2    50   UnSpc ~ 0
+Text GLabel 3750 4800 2    50   UnSpc ~ 0
 U_BUTTON_1
 Text GLabel 5350 4500 0    50   UnSpc ~ 0
 U_BUTTON_2
-Text GLabel 7000 2900 2    50   UnSpc ~ 0
+Text GLabel 1050 5200 2    50   UnSpc ~ 0
 U_LED_1
 Text GLabel 5350 4000 0    50   UnSpc ~ 0
 U_LED_2
@@ -943,7 +924,6 @@ Wire Wire Line
 	5350 4100 5550 4100
 Wire Wire Line
 	3750 1700 3550 1700
-NoConn ~ 3550 1800
 Wire Wire Line
 	3550 1900 3750 1900
 Wire Wire Line
@@ -958,7 +938,7 @@ Wire Wire Line
 	3750 2900 3550 2900
 Wire Wire Line
 	3750 3100 3550 3100
-Text GLabel 4350 3300 2    50   UnSpc ~ 0
+Text GLabel 3750 3400 2    50   UnSpc ~ 0
 LCD_B0
 Wire Wire Line
 	3750 3300 3550 3300
@@ -976,4 +956,43 @@ Wire Wire Line
 	3750 4500 3550 4500
 Wire Wire Line
 	3750 4700 3550 4700
+Wire Wire Line
+	3550 4900 3750 4900
+Wire Wire Line
+	3550 1800 3750 1800
+Wire Wire Line
+	3550 2000 3750 2000
+Wire Wire Line
+	3550 2200 3750 2200
+Wire Wire Line
+	3750 2400 3550 2400
+Wire Wire Line
+	3550 2600 3750 2600
+Wire Wire Line
+	3750 2800 3550 2800
+Wire Wire Line
+	3750 3000 3550 3000
+Wire Wire Line
+	3750 3200 3550 3200
+Wire Wire Line
+	3750 3400 3550 3400
+Wire Wire Line
+	3750 3600 3550 3600
+Wire Wire Line
+	3750 3800 3550 3800
+Wire Wire Line
+	3550 4000 3750 4000
+Wire Wire Line
+	3750 4200 3550 4200
+Wire Wire Line
+	3550 4400 3750 4400
+Wire Wire Line
+	3750 4600 3550 4600
+Wire Wire Line
+	3550 4800 3750 4800
+Wire Wire Line
+	3550 5000 3750 5000
+Wire Wire Line
+	2850 5100 2600 5100
+NoConn ~ 3550 5100
 $EndSCHEMATC
