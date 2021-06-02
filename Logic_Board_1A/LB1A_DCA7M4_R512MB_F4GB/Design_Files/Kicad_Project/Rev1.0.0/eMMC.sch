@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
-Title "LOGIC BOARD 1A (LB1A_R512MB_F4GB)"
-Date "2021-05-20"
+Sheet 3 6
+Title "LOGIC BOARD 1A (LB1A_DCA7M4_R512MB_F4GB)"
+Date "2021-06-02"
 Rev "1.0.0"
 Comp ""
 Comment1 ""
