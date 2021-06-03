@@ -767,19 +767,6 @@ F 3 "" H 7000 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L U_Power:PMIC_LDO5_VDDA #PWR?
-U 1 1 614B609C
-P 7000 3150
-AR Path="/60A9AEDE/614B609C" Ref="#PWR?"  Part="1" 
-AR Path="/61484B0A/614B609C" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 7000 3000 50  0001 C CNN
-F 1 "PMIC_LDO5_VDDA" V 7015 3278 50  0000 L CNN
-F 2 "" H 7000 3150 50  0001 C CNN
-F 3 "" H 7000 3150 50  0001 C CNN
-	1    7000 3150
-	0    1    1    0   
-$EndComp
-$Comp
 L U_Power:PMIC_VOUT1_VDD_CORE #PWR?
 U 1 1 614B60A2
 P 8950 2700
@@ -951,19 +938,6 @@ F 1 "PMIC_LDO4_VDD_USB" V 10050 5000 50  0000 C CNN
 F 2 "" H 10050 4450 50  0001 C CNN
 F 3 "" H 10050 4450 50  0001 C CNN
 	1    10050 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L U_Power:PMIC_LDO5_VDDA #PWR?
-U 1 1 614B60FC
-P 10450 4450
-AR Path="/60A9AEDE/614B60FC" Ref="#PWR?"  Part="1" 
-AR Path="/61484B0A/614B60FC" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 10450 4300 50  0001 C CNN
-F 1 "PMIC_LDO5_VDDA" V 10450 4900 50  0000 C CNN
-F 2 "" H 10450 4450 50  0001 C CNN
-F 3 "" H 10450 4450 50  0001 C CNN
-	1    10450 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1307,19 +1281,6 @@ F 3 "" H 1450 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L U_Power:PMIC_LDO5_VDDA #PWR?
-U 1 1 614B61B1
-P 1550 7100
-AR Path="/60A9AEDE/614B61B1" Ref="#PWR?"  Part="1" 
-AR Path="/61484B0A/614B61B1" Ref="#PWR0139"  Part="1" 
-F 0 "#PWR0139" H 1550 6950 50  0001 C CNN
-F 1 "PMIC_LDO5_VDDA" V 1565 7228 50  0000 L CNN
-F 2 "" H 1550 7100 50  0001 C CNN
-F 3 "" H 1550 7100 50  0001 C CNN
-	1    1550 7100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG?
 U 1 1 614B61B7
 P 1050 7200
@@ -1639,20 +1600,20 @@ Wire Wire Line
 	4500 3300 3750 3300
 Wire Wire Line
 	3750 3400 4500 3400
-Text Notes 3550 7000 0    50   ~ 0
-5. Default = 1.8V; Imax = 800mA; NOT ON BY DEFAULT.
-Text Notes 3500 6450 0    118  ~ 24
+Text Notes 3550 7250 0    50   ~ 0
+5. Default = 1.8V; Imax = 800mA; NOT ON BY DEFAULT; Application = GP
+Text Notes 3500 6100 0    118  ~ 24
 Notes
-Text Notes 3550 7100 0    50   ~ 0
-6. Default = 2.9V; Imax = 800mA
-Text Notes 3550 7200 0    50   ~ 0
-7. Default = 1.8V; Imax = 150mA; NOT ON BY DEFAULT
-Text Notes 3550 7300 0    50   ~ 0
-8. Default = 3.3V; Imax = 200mA
-Text Notes 3550 7400 0    50   ~ 0
-9. Default = 2.9V; Imax = 800mA
-Text Notes 3500 7500 0    50   ~ 0
-10. Default = 1.0V; Imax = 350mA; NOT ON BY DEFAULT
+Text Notes 3550 7350 0    50   ~ 0
+6. Default = 2.9V; Imax = 800mA; Application = SD-Card or GP
+Text Notes 3550 7450 0    50   ~ 0
+7. Default = 1.8V; Imax = 150mA; NOT ON BY DEFAULT; Application = DDR3 Termination
+Text Notes 3550 7550 0    50   ~ 0
+8. Default (fixed) = 3.3V; Imax = 200mA; Application = USB PHY
+Text Notes 3550 7650 0    50   ~ 0
+9. Default = 2.9V; Imax = 800mA; Application = Flash Memory or GP
+Text Notes 3500 7750 0    50   ~ 0
+10. Default = 1.0V; Imax = 350mA; NOT ON BY DEFAULT; Application = GP
 Text Notes 6350 3250 0    50   ~ 0
 See Note 10
 Text Notes 6350 3150 0    50   ~ 0
@@ -1673,14 +1634,14 @@ Text Notes 7000 1650 0    50   ~ 0
 See Note 3
 Text Notes 7000 1900 0    50   ~ 0
 See Note 4
-Text Notes 3550 6600 0    50   ~ 0
-1. Default = 1.2V; Imax = 2000mA
 Text Notes 3550 6700 0    50   ~ 0
-2. Default = 1.1V; Imax = 1600mA; NOT ON BY DEFAULT
+1. Default = 1.2V; Imax = 2000mA; Application = CORE
 Text Notes 3550 6800 0    50   ~ 0
-3. Default = 1.8V; Imax = 1000mA
+2. Default = 1.1V; Imax = 1600mA; NOT ON BY DEFAULT; Application = DDR3L RAM
 Text Notes 3550 6900 0    50   ~ 0
-4. Default = 3.3V; Imax = 3000mA
+3. Default = 1.8V; Imax = 1000mA; Application = VIO
+Text Notes 3550 7000 0    50   ~ 0
+4. Default = 3.3V; Imax = 3000mA; Application = Application CPU or GP
 $Comp
 L U_Power:PMIC_LDO2_2V9 #PWR?
 U 1 1 614B626E
@@ -1828,6 +1789,7 @@ U 1 1 60D4F899
 P 1950 7100
 AR Path="/60A73E6A/60D4F899" Ref="#PWR?"  Part="1" 
 AR Path="/60B2563F/60D4F899" Ref="#PWR?"  Part="1" 
+AR Path="/61484B0A/60D4F899" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1950 6950 50  0001 C CNN
 F 1 "MPU_VDDA_1V8_REG" V 1950 7600 50  0000 C CNN
 F 2 "" H 1950 7100 50  0001 C CNN
@@ -1848,4 +1810,45 @@ F 3 "~" H 1950 7200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1950 7200 1950 7100
+Text Notes 3550 7150 0    50   ~ 10
+LDOs
+Text Notes 3550 6600 0    50   ~ 10
+BUCK Converters
+Text Notes 3550 6400 0    50   ~ 0
+PWR_ON_RESET -> BUCK3 -> BUCK1, BUCK4, LDO2, LDO5 -> LDO4\nBUCK2, LDO1, LDO3, LDO6, REFDDR enable by I2C
+Text Notes 3550 6250 0    50   ~ 10
+PMIC Power On Sequence:
+$Comp
+L U_Power:PMIC_LDO5_2V9 #PWR?
+U 1 1 60BD3281
+P 7000 3150
+F 0 "#PWR?" H 7000 3000 50  0001 C CNN
+F 1 "PMIC_LDO5_2V9" V 7015 3278 50  0000 L CNN
+F 2 "" H 7000 3150 50  0001 C CNN
+F 3 "" H 7000 3150 50  0001 C CNN
+	1    7000 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L U_Power:PMIC_LDO5_2V9 #PWR?
+U 1 1 60BD6D79
+P 1550 7100
+F 0 "#PWR?" H 1550 6950 50  0001 C CNN
+F 1 "PMIC_LDO5_2V9" V 1550 7500 50  0000 C CNN
+F 2 "" H 1550 7100 50  0001 C CNN
+F 3 "" H 1550 7100 50  0001 C CNN
+	1    1550 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Power:PMIC_LDO5_2V9 #PWR?
+U 1 1 60C06BD4
+P 10450 4450
+F 0 "#PWR?" H 10450 4300 50  0001 C CNN
+F 1 "PMIC_LDO5_2V9" V 10450 4900 50  0000 C CNN
+F 2 "" H 10450 4450 50  0001 C CNN
+F 3 "" H 10450 4450 50  0001 C CNN
+	1    10450 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
