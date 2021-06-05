@@ -187,7 +187,7 @@ Text GLabel 6450 2200 2    50   UnSpc ~ 0
 HDMI_NRST
 Text GLabel 2600 3200 0    50   UnSpc ~ 0
 DSI_TE
-Text GLabel 2600 5000 0    50   UnSpc ~ 0
+Text GLabel 3750 5100 2    50   UnSpc ~ 0
 DSI_RESET
 Text GLabel 3750 3300 2    50   UnSpc ~ 0
 DSI_D0_P
@@ -215,7 +215,7 @@ Text GLabel 3750 4100 2    50   UnSpc ~ 0
 STLINK_UART4_RX
 Text GLabel 3750 3900 2    50   UnSpc ~ 0
 STLINK_UART4_TX
-Text GLabel 3750 5100 2    50   UnSpc ~ 0
+Text GLabel 2600 5000 0    50   UnSpc ~ 0
 JTMS_SWDIO
 Text GLabel 3750 1700 2    50   UnSpc ~ 0
 JTCK_SWCLK
@@ -963,9 +963,9 @@ Wire Wire Line
 Wire Wire Line
 	2600 4900 2850 4900
 Wire Wire Line
-	2850 5000 2600 5000
+	3550 5100 3750 5100
 Wire Wire Line
-	3750 5100 3550 5100
+	2600 5000 2850 5000
 Wire Wire Line
 	2600 4800 2850 4800
 Wire Wire Line
