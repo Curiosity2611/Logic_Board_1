@@ -1,4 +1,4 @@
-update=Wed Jun  9 11:12:51 2021
+update=Wed Jun  9 12:29:22 2021
 version=1
 last_client=kicad
 [general]
@@ -247,7 +247,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.1016
+Clearance=0.0762
 TrackWidth=0.0889
 ViaDiameter=0.40005
 ViaDrill=0.20066
@@ -258,7 +258,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=DDR_DiffPairs
-Clearance=0.1016
+Clearance=0.0762
 TrackWidth=0.0889
 ViaDiameter=0.40005
 ViaDrill=0.20066
@@ -269,7 +269,7 @@ dPairGap=0.1016
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Gnd_Lines
-Clearance=0.1016
+Clearance=0.0762
 TrackWidth=0.2032
 ViaDiameter=0.40005
 ViaDrill=0.20066
