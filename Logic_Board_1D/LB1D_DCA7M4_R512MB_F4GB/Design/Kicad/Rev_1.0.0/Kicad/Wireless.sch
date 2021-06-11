@@ -1,0 +1,772 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title "LOGIC BOARD 1D (LB1D_DCA7M4_R512MB_F4GB)"
+Date "2021-06-11"
+Rev "1.0.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L U_RF_WiFi:WFM200S022XNA3R U8
+U 1 1 60D0C987
+P 3450 3650
+F 0 "U8" H 2000 5100 50  0000 C CNN
+F 1 "WFM200S022XNA3R" H 2300 5000 50  0000 C CNN
+F 2 "U_Module:WFM200S022XNA3" V 2450 2550 50  0001 C CNN
+F 3 "https://www.mouser.in/datasheet/2/368/wfm200_datasheet-1800105.pdf" V 2450 2550 50  0001 C CNN
+	1    3450 3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1750 2600
+NoConn ~ 1750 2700
+NoConn ~ 1750 2800
+NoConn ~ 1750 2900
+Text GLabel 1200 3550 0    50   UnSpc ~ 0
+SDMMC3_CK
+Wire Wire Line
+	1750 3550 1200 3550
+Text Label 1700 3550 2    50   ~ 0
+SDMMC3_CK
+Text GLabel 1200 3650 0    50   UnSpc ~ 0
+SDMMC3_CMD
+Text GLabel 1200 3750 0    50   UnSpc ~ 0
+SDMMC3_D0
+Text GLabel 1200 3850 0    50   UnSpc ~ 0
+SDMMC3_D1
+Text GLabel 1200 3950 0    50   UnSpc ~ 0
+SDMMC3_D2
+Text GLabel 1200 4050 0    50   UnSpc ~ 0
+SDMMC3_D3
+Wire Wire Line
+	1200 3650 1750 3650
+Wire Wire Line
+	1750 3750 1200 3750
+Wire Wire Line
+	1200 3850 1750 3850
+Wire Wire Line
+	1750 3950 1200 3950
+Wire Wire Line
+	1200 4050 1750 4050
+Text Label 1250 3650 0    50   ~ 0
+SDMMC3_CMD
+Text Label 1250 3750 0    50   ~ 0
+SDMMC3_D0
+Text Label 1250 3850 0    50   ~ 0
+SDMMC3_D1
+Text Label 1250 3950 0    50   ~ 0
+SDMMC3_D2
+Text Label 1250 4050 0    50   ~ 0
+SDMMC3_D3
+Text GLabel 1200 4400 0    50   UnSpc ~ 0
+NRST
+Wire Wire Line
+	1200 4400 1750 4400
+Text Label 1350 4400 0    50   ~ 0
+NRST
+$Comp
+L power:GND #PWR0169
+U 1 1 60D243BB
+P 1600 4600
+F 0 "#PWR0169" H 1600 4350 50  0001 C CNN
+F 1 "GND" H 1605 4427 50  0000 C CNN
+F 2 "" H 1600 4600 50  0001 C CNN
+F 3 "" H 1600 4600 50  0001 C CNN
+	1    1600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4600 1600 4500
+Wire Wire Line
+	1600 4500 1750 4500
+$Comp
+L power:GND #PWR0170
+U 1 1 60D26458
+P 4750 5150
+F 0 "#PWR0170" H 4750 4900 50  0001 C CNN
+F 1 "GND" H 4755 4977 50  0000 C CNN
+F 2 "" H 4750 5150 50  0001 C CNN
+F 3 "" H 4750 5150 50  0001 C CNN
+	1    4750 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 5000 2050 5100
+Wire Wire Line
+	2050 5100 2150 5100
+Wire Wire Line
+	4750 5000 4750 5100
+Connection ~ 4750 5100
+Wire Wire Line
+	4750 5100 4750 5150
+Wire Wire Line
+	4650 5000 4650 5100
+Connection ~ 4650 5100
+Wire Wire Line
+	4650 5100 4750 5100
+Wire Wire Line
+	4550 5000 4550 5100
+Connection ~ 4550 5100
+Wire Wire Line
+	4550 5100 4650 5100
+Wire Wire Line
+	4450 5000 4450 5100
+Connection ~ 4450 5100
+Wire Wire Line
+	4450 5100 4550 5100
+Wire Wire Line
+	4350 5000 4350 5100
+Connection ~ 4350 5100
+Wire Wire Line
+	4350 5100 4450 5100
+Wire Wire Line
+	4250 5000 4250 5100
+Connection ~ 4250 5100
+Wire Wire Line
+	4250 5100 4350 5100
+Wire Wire Line
+	4150 5000 4150 5100
+Connection ~ 4150 5100
+Wire Wire Line
+	4150 5100 4250 5100
+Wire Wire Line
+	4050 5000 4050 5100
+Connection ~ 4050 5100
+Wire Wire Line
+	4050 5100 4150 5100
+Wire Wire Line
+	3950 5000 3950 5100
+Connection ~ 3950 5100
+Wire Wire Line
+	3950 5100 4050 5100
+Wire Wire Line
+	3850 5000 3850 5100
+Connection ~ 3850 5100
+Wire Wire Line
+	3850 5100 3950 5100
+Wire Wire Line
+	3750 5000 3750 5100
+Connection ~ 3750 5100
+Wire Wire Line
+	3750 5100 3850 5100
+Wire Wire Line
+	3650 5000 3650 5100
+Connection ~ 3650 5100
+Wire Wire Line
+	3650 5100 3750 5100
+Wire Wire Line
+	3550 5000 3550 5100
+Connection ~ 3550 5100
+Wire Wire Line
+	3550 5100 3650 5100
+Wire Wire Line
+	3450 5000 3450 5100
+Connection ~ 3450 5100
+Wire Wire Line
+	3450 5100 3550 5100
+Wire Wire Line
+	3350 5000 3350 5100
+Connection ~ 3350 5100
+Wire Wire Line
+	3350 5100 3450 5100
+Wire Wire Line
+	3250 5000 3250 5100
+Connection ~ 3250 5100
+Wire Wire Line
+	3250 5100 3350 5100
+Wire Wire Line
+	3150 5000 3150 5100
+Connection ~ 3150 5100
+Wire Wire Line
+	3150 5100 3250 5100
+Wire Wire Line
+	3050 5000 3050 5100
+Connection ~ 3050 5100
+Wire Wire Line
+	3050 5100 3150 5100
+Wire Wire Line
+	2950 5000 2950 5100
+Connection ~ 2950 5100
+Wire Wire Line
+	2950 5100 3050 5100
+Wire Wire Line
+	2850 5000 2850 5100
+Connection ~ 2850 5100
+Wire Wire Line
+	2850 5100 2950 5100
+Wire Wire Line
+	2750 5000 2750 5100
+Connection ~ 2750 5100
+Wire Wire Line
+	2750 5100 2850 5100
+Wire Wire Line
+	2650 5000 2650 5100
+Connection ~ 2650 5100
+Wire Wire Line
+	2650 5100 2750 5100
+Wire Wire Line
+	2550 5000 2550 5100
+Connection ~ 2550 5100
+Wire Wire Line
+	2550 5100 2650 5100
+Wire Wire Line
+	2450 5000 2450 5100
+Connection ~ 2450 5100
+Wire Wire Line
+	2450 5100 2550 5100
+Wire Wire Line
+	2350 5000 2350 5100
+Connection ~ 2350 5100
+Wire Wire Line
+	2350 5100 2450 5100
+Wire Wire Line
+	2250 5000 2250 5100
+Connection ~ 2250 5100
+Wire Wire Line
+	2250 5100 2350 5100
+Wire Wire Line
+	2150 5000 2150 5100
+Connection ~ 2150 5100
+Wire Wire Line
+	2150 5100 2250 5100
+$Comp
+L power:GND #PWR0171
+U 1 1 60D3B832
+P 5200 4500
+F 0 "#PWR0171" H 5200 4250 50  0001 C CNN
+F 1 "GND" H 5205 4327 50  0000 C CNN
+F 2 "" H 5200 4500 50  0001 C CNN
+F 3 "" H 5200 4500 50  0001 C CNN
+	1    5200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4400 5200 4400
+Wire Wire Line
+	5200 4400 5200 4500
+NoConn ~ 5050 4300
+NoConn ~ 5050 3500
+NoConn ~ 5050 3600
+NoConn ~ 5050 3700
+NoConn ~ 5050 3800
+NoConn ~ 5050 3900
+NoConn ~ 5050 4000
+NoConn ~ 5050 4100
+$Comp
+L power:GND #PWR0172
+U 1 1 60D4BF60
+P 5200 3500
+F 0 "#PWR0172" H 5200 3250 50  0001 C CNN
+F 1 "GND" H 5205 3327 50  0000 C CNN
+F 2 "" H 5200 3500 50  0001 C CNN
+F 3 "" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3150 5200 3150
+Wire Wire Line
+	5200 3150 5200 3200
+Wire Wire Line
+	5050 2750 5200 2750
+Wire Wire Line
+	5200 2750 5200 2850
+Wire Wire Line
+	5200 2850 5050 2850
+$Comp
+L power:GND #PWR0173
+U 1 1 60D52C0A
+P 5450 2550
+F 0 "#PWR0173" H 5450 2300 50  0001 C CNN
+F 1 "GND" V 5455 2422 50  0000 R CNN
+F 2 "" H 5450 2550 50  0001 C CNN
+F 3 "" H 5450 2550 50  0001 C CNN
+	1    5450 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 2550 5150 2550
+Wire Wire Line
+	5350 2550 5450 2550
+$Comp
+L Device:C_Small C?
+U 1 1 60DBA32A
+P 5250 2550
+AR Path="/60A73E6A/60DBA32A" Ref="C?"  Part="1" 
+AR Path="/60CA7234/60DBA32A" Ref="C?"  Part="1" 
+AR Path="/60B2563F/60DBA32A" Ref="C?"  Part="1" 
+AR Path="/60D0B5AB/60DBA32A" Ref="C33"  Part="1" 
+F 0 "C33" V 5200 2600 50  0000 L CNN
+F 1 "10pF" V 5300 2600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5250 2550 50  0001 C CNN
+F 3 "~" H 5250 2550 50  0001 C CNN
+F 4 "" H 5250 2550 50  0001 C CNN "Package "
+F 5 "04026A100KAT2A" H 5250 2550 50  0001 C CNN "MNP"
+F 6 "0402" H 5250 2550 50  0001 C CNN "Package"
+	1    5250 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60E09C42
+P 5200 3300
+AR Path="/60CA7234/60E09C42" Ref="R?"  Part="1" 
+AR Path="/61255860/60E09C42" Ref="R?"  Part="1" 
+AR Path="/60D0B5AB/60E09C42" Ref="R47"  Part="1" 
+F 0 "R47" H 5250 3400 50  0000 L CNN
+F 1 "100E" H 5250 3300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5200 3300 50  0001 C CNN
+F 3 "~" H 5200 3300 50  0001 C CNN
+F 4 "0402" H 5200 3300 50  0001 C CNN "Package"
+F 5 "RC0402JR-7D100RL" H 5200 3300 50  0001 C CNN "MNP"
+	1    5200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60E0BB8A
+P 5550 3300
+AR Path="/60CA7234/60E0BB8A" Ref="R?"  Part="1" 
+AR Path="/61255860/60E0BB8A" Ref="R?"  Part="1" 
+AR Path="/60D0B5AB/60E0BB8A" Ref="R48"  Part="1" 
+F 0 "R48" H 5600 3400 50  0000 L CNN
+F 1 "100E" H 5600 3300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5550 3300 50  0001 C CNN
+F 3 "~" H 5550 3300 50  0001 C CNN
+F 4 "0402" H 5550 3300 50  0001 C CNN "Package"
+F 5 "RC0402JR-7D100RL" H 5550 3300 50  0001 C CNN "MNP"
+	1    5550 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3400 5200 3450
+Wire Wire Line
+	5200 3150 5550 3150
+Wire Wire Line
+	5550 3150 5550 3200
+Connection ~ 5200 3150
+Wire Wire Line
+	5200 3450 5550 3450
+Wire Wire Line
+	5550 3450 5550 3400
+Connection ~ 5200 3450
+Wire Wire Line
+	5200 3450 5200 3500
+$Comp
+L U_Power:PMIC_VOUT4_3V3 #PWR0174
+U 1 1 60E2E0E7
+P 3100 2000
+F 0 "#PWR0174" H 3100 1850 50  0001 C CNN
+F 1 "PMIC_VOUT4_3V3" H 3115 2173 50  0000 C CNN
+F 2 "" H 3100 2000 50  0001 C CNN
+F 3 "" H 3100 2000 50  0001 C CNN
+	1    3100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60E3B15D
+P 4100 1900
+AR Path="/60A9AEDE/60E3B15D" Ref="C?"  Part="1" 
+AR Path="/61484B0A/60E3B15D" Ref="C?"  Part="1" 
+AR Path="/60D0B5AB/60E3B15D" Ref="C32"  Part="1" 
+F 0 "C32" H 4192 1946 50  0000 L CNN
+F 1 "10uF" H 4192 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4100 1900 50  0001 C CNN
+F 3 "~" H 4100 1900 50  0001 C CNN
+F 4 "0402" H 4100 1900 50  0001 C CNN "Package"
+F 5 "GRM155R60J106ME15D" H 4100 1900 50  0001 C CNN "MNP"
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2000 3100 2050
+Wire Wire Line
+	3100 2050 3600 2050
+Wire Wire Line
+	3600 2050 3600 2150
+Connection ~ 3100 2050
+Wire Wire Line
+	3100 2050 3100 2150
+Wire Wire Line
+	3600 2050 4100 2050
+Wire Wire Line
+	4100 2050 4100 2150
+Connection ~ 3600 2050
+$Comp
+L power:GND #PWR0175
+U 1 1 60E4644C
+P 4100 1750
+F 0 "#PWR0175" H 4100 1500 50  0001 C CNN
+F 1 "GND" H 4105 1577 50  0000 C CNN
+F 2 "" H 4100 1750 50  0001 C CNN
+F 3 "" H 4100 1750 50  0001 C CNN
+	1    4100 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 2050 4100 2000
+Connection ~ 4100 2050
+Wire Wire Line
+	4100 1800 4100 1750
+Text GLabel 1200 3150 0    50   UnSpc ~ 0
+WIFI_IRQ
+Text GLabel 1200 3250 0    50   UnSpc ~ 0
+WIFI_WKUP
+Wire Wire Line
+	1200 3150 1750 3150
+Wire Wire Line
+	1750 3250 1200 3250
+Text Label 1350 3150 0    50   ~ 0
+WIFI_IRQ
+Text Label 1350 3250 0    50   ~ 0
+WIFI_WKUP
+$Comp
+L U_Power:PMIC_VOUT4_3V3 #PWR0176
+U 1 1 60E591E8
+P 2900 5800
+F 0 "#PWR0176" H 2900 5650 50  0001 C CNN
+F 1 "PMIC_VOUT4_3V3" H 2915 5973 50  0000 C CNN
+F 2 "" H 2900 5800 50  0001 C CNN
+F 3 "" H 2900 5800 50  0001 C CNN
+	1    2900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R50
+U 1 1 60ED2866
+P 2600 5950
+F 0 "R50" V 2550 6050 50  0000 C CNN
+F 1 "100k" V 2650 6100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 2600 5950 50  0001 C CNN
+F 3 "" H 2600 5950 50  0001 C CNN
+F 4 "RC0402FR-7D100KL" V 2600 5950 50  0001 C CNN "MNP"
+	1    2600 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 5950 2900 5950
+Wire Wire Line
+	2900 5950 2900 5800
+$Comp
+L Device:R_Small_US R51
+U 1 1 60ED8E16
+P 2600 6150
+F 0 "R51" V 2550 6250 50  0000 C CNN
+F 1 "100k" V 2650 6300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 2600 6150 50  0001 C CNN
+F 3 "" H 2600 6150 50  0001 C CNN
+F 4 "RC0402FR-7D100KL" V 2600 6150 50  0001 C CNN "MNP"
+	1    2600 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R52
+U 1 1 60ED9907
+P 2600 6350
+F 0 "R52" V 2550 6450 50  0000 C CNN
+F 1 "100k" V 2650 6500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 2600 6350 50  0001 C CNN
+F 3 "" H 2600 6350 50  0001 C CNN
+F 4 "RC0402FR-7D100KL" V 2600 6350 50  0001 C CNN "MNP"
+	1    2600 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R53
+U 1 1 60EDA45A
+P 2600 6550
+F 0 "R53" V 2550 6650 50  0000 C CNN
+F 1 "100k" V 2650 6700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 2600 6550 50  0001 C CNN
+F 3 "" H 2600 6550 50  0001 C CNN
+F 4 "RC0402FR-7D100KL" V 2600 6550 50  0001 C CNN "MNP"
+	1    2600 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R54
+U 1 1 60EDAAA3
+P 2600 6750
+F 0 "R54" V 2550 6850 50  0000 C CNN
+F 1 "100k" V 2650 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 2600 6750 50  0001 C CNN
+F 3 "" H 2600 6750 50  0001 C CNN
+F 4 "RC0402FR-7D100KL" V 2600 6750 50  0001 C CNN "MNP"
+	1    2600 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R55
+U 1 1 60EDAE76
+P 2600 6950
+F 0 "R55" V 2550 7050 50  0000 C CNN
+F 1 "100k" V 2650 7100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 2600 6950 50  0001 C CNN
+F 3 "" H 2600 6950 50  0001 C CNN
+F 4 "RC0402FR-7D100KL" V 2600 6950 50  0001 C CNN "MNP"
+	1    2600 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 6150 2900 6150
+Wire Wire Line
+	2900 6150 2900 5950
+Connection ~ 2900 5950
+Wire Wire Line
+	2700 6350 2900 6350
+Wire Wire Line
+	2900 6350 2900 6150
+Connection ~ 2900 6150
+Wire Wire Line
+	2700 6550 2900 6550
+Wire Wire Line
+	2900 6550 2900 6350
+Connection ~ 2900 6350
+Wire Wire Line
+	2700 6750 2900 6750
+Wire Wire Line
+	2900 6750 2900 6550
+Connection ~ 2900 6550
+Wire Wire Line
+	2700 6950 2900 6950
+Wire Wire Line
+	2900 6950 2900 6750
+Connection ~ 2900 6750
+Text GLabel 2300 5950 0    50   UnSpc ~ 0
+SDMMC3_CK
+Text GLabel 2300 6150 0    50   UnSpc ~ 0
+SDMMC3_CMD
+Text GLabel 2300 6350 0    50   UnSpc ~ 0
+SDMMC3_D0
+Text GLabel 2300 6550 0    50   UnSpc ~ 0
+SDMMC3_D1
+Text GLabel 2300 6750 0    50   UnSpc ~ 0
+SDMMC3_D2
+Text GLabel 2300 6950 0    50   UnSpc ~ 0
+SDMMC3_D3
+Wire Wire Line
+	2300 5950 2500 5950
+Wire Wire Line
+	2300 6150 2500 6150
+Wire Wire Line
+	2300 6350 2500 6350
+Wire Wire Line
+	2300 6550 2500 6550
+Wire Wire Line
+	2300 6750 2500 6750
+Wire Wire Line
+	2300 6950 2500 6950
+Text Notes 5600 3750 0    50   ~ 0
+Embedded Antenna is used. \nConnect to ground with resistor\nbetween 47E and 51E. \nParallel resistors are used based\non available stock
+Text Notes 500  4700 0    50   ~ 0
+No 32KHz LP_CLK is used. \nConnect to ground.
+Text Notes 4200 2050 0    50   ~ 0
+Place close to Module's VDD_PA pin.
+$Comp
+L U_RF_Bluetooth:BGX220S22HNA21R U9
+U 1 1 60F2C496
+P 8950 3700
+F 0 "U9" H 9750 3000 50  0000 L CNN
+F 1 "BGX220S22HNA21R" H 9700 2900 50  0000 L CNN
+F 2 "U_Module:BGX220S22HNA21" H 11600 5550 50  0001 C CNN
+F 3 "https://www.mouser.in/datasheet/2/368/bgx220s_datasheet-2036718.pdf" H 11600 5550 50  0001 C CNN
+	1    8950 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9850 2450 2    50   UnSpc ~ 0
+BLE_RESET
+Wire Wire Line
+	9250 2800 9250 2450
+Wire Wire Line
+	9250 2450 9850 2450
+Text Label 9350 2450 0    50   ~ 0
+BLE_RESET
+$Comp
+L power:GND #PWR0177
+U 1 1 60F3EBB9
+P 7900 2800
+F 0 "#PWR0177" H 7900 2550 50  0001 C CNN
+F 1 "GND" H 7905 2627 50  0000 C CNN
+F 2 "" H 7900 2800 50  0001 C CNN
+F 3 "" H 7900 2800 50  0001 C CNN
+	1    7900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2800 7900 2700
+Wire Wire Line
+	7900 2700 8350 2700
+Wire Wire Line
+	8750 2700 8750 2800
+Wire Wire Line
+	8650 2800 8650 2700
+Connection ~ 8650 2700
+Wire Wire Line
+	8650 2700 8750 2700
+Wire Wire Line
+	8550 2800 8550 2700
+Connection ~ 8550 2700
+Wire Wire Line
+	8550 2700 8650 2700
+Wire Wire Line
+	8450 2800 8450 2700
+Connection ~ 8450 2700
+Wire Wire Line
+	8450 2700 8550 2700
+Wire Wire Line
+	8350 2800 8350 2700
+Connection ~ 8350 2700
+Wire Wire Line
+	8350 2700 8450 2700
+Wire Wire Line
+	9150 2800 9150 2450
+Wire Wire Line
+	8650 2450 8650 2550
+Wire Wire Line
+	8650 2550 8750 2550
+Wire Wire Line
+	8750 2550 8750 2700
+Wire Wire Line
+	8650 2450 9150 2450
+Connection ~ 8750 2700
+$Comp
+L Device:R_Small_US R49
+U 1 1 60F5B766
+P 7550 3350
+F 0 "R49" V 7345 3350 50  0000 C CNN
+F 1 "0E" V 7436 3350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7550 3350 50  0001 C CNN
+F 3 "" H 7550 3350 50  0001 C CNN
+F 4 "CR0402-J/-000GLF" V 7550 3350 50  0001 C CNN "MNP"
+	1    7550 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7650 3350 7900 3350
+Wire Wire Line
+	7450 3350 7300 3350
+Wire Wire Line
+	7300 3350 7300 3450
+Wire Wire Line
+	7300 3450 7900 3450
+$Comp
+L power:GND #PWR0178
+U 1 1 60F67241
+P 7600 3650
+F 0 "#PWR0178" H 7600 3400 50  0001 C CNN
+F 1 "GND" H 7605 3477 50  0000 C CNN
+F 2 "" H 7600 3650 50  0001 C CNN
+F 3 "" H 7600 3650 50  0001 C CNN
+	1    7600 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3650 7600 3550
+Wire Wire Line
+	7600 3550 7800 3550
+Wire Wire Line
+	7900 3650 7800 3650
+Wire Wire Line
+	7800 3650 7800 3550
+Connection ~ 7800 3550
+Wire Wire Line
+	7800 3550 7900 3550
+NoConn ~ 7900 3750
+NoConn ~ 7900 3850
+NoConn ~ 7900 3950
+NoConn ~ 7900 4050
+NoConn ~ 7900 4150
+NoConn ~ 8700 4550
+NoConn ~ 9200 4550
+NoConn ~ 9300 4550
+NoConn ~ 9400 4550
+Text GLabel 9750 5000 2    50   UnSpc ~ 0
+USART3_RX
+Text GLabel 9750 4700 2    50   UnSpc ~ 0
+USART3_RTS
+Text GLabel 9750 4800 2    50   UnSpc ~ 0
+USART3_CTS
+Text GLabel 9750 4900 2    50   UnSpc ~ 0
+USART3_TX
+Wire Wire Line
+	9100 4700 9100 4550
+Wire Wire Line
+	9000 4800 9000 4550
+Wire Wire Line
+	8900 4900 8900 4550
+Wire Wire Line
+	8800 5000 8800 4550
+Wire Wire Line
+	9100 4700 9750 4700
+Wire Wire Line
+	9000 4800 9750 4800
+Wire Wire Line
+	8900 4900 9750 4900
+Wire Wire Line
+	8800 5000 9750 5000
+Text Label 9200 4700 0    50   ~ 0
+USART3_RTS
+Text Label 9200 4800 0    50   ~ 0
+USART3_CTS
+Text Label 9200 4900 0    50   ~ 0
+USART3_TX
+Text Label 9200 5000 0    50   ~ 0
+USART3_RX
+NoConn ~ 10050 4150
+$Comp
+L U_Power:PMIC_VOUT4_3V3 #PWR0179
+U 1 1 60FD9DD0
+P 10300 3950
+F 0 "#PWR0179" H 10300 3800 50  0001 C CNN
+F 1 "PMIC_VOUT4_3V3" V 10315 4078 50  0000 L CNN
+F 2 "" H 10300 3950 50  0001 C CNN
+F 3 "" H 10300 3950 50  0001 C CNN
+	1    10300 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 3950 10200 3950
+Wire Wire Line
+	10050 4050 10200 4050
+Wire Wire Line
+	10200 4050 10200 3950
+Connection ~ 10200 3950
+Wire Wire Line
+	10200 3950 10300 3950
+$Comp
+L Connector:TestPoint TP1
+U 1 1 60FE62A8
+P 10200 3750
+F 0 "TP1" V 10200 3938 50  0000 L CNN
+F 1 "TestPoint" V 10245 3938 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10400 3750 50  0001 C CNN
+F 3 "~" H 10400 3750 50  0001 C CNN
+	1    10200 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 3750 10200 3750
+Wire Notes Line
+	7000 6550 7000 450 
+Text Notes 3150 1000 0    200  ~ 40
+WIFI
+Text Notes 8750 950  0    200  ~ 40
+BLE
+Text Notes 10200 3700 0    50   ~ 0
+Active-low digital input to \nforcemodule into DFU \nbootloaderstate upon \ndevice reset.
+Text Notes 10250 4350 0    50   ~ 0
+The module is embedded \nwithall the filtering and \ndecouplingcaps. No need \nfor external caps.
+Text Notes 8650 2450 0    50   ~ 0
+ANTENNA LOOP
+Text Notes 9500 2300 0    50   ~ 0
+Note: External pull-up should not\nbe placed on the reset pin.  It is \ninternally pulled up to VREG (DVDD)
+Text Notes 7800 6950 0    157  Italic 31
+WIRELESS MODULES
+$EndSCHEMATC
